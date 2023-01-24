@@ -1,22 +1,21 @@
-// let energy = 'Saturday'
-// function subLength(str_input,single_char){
-//     string_Arr = str_input.split('')
-//     find_Arr = string_Arr.map((element, idx) => 
-//     element === single_char ? idx : '').filter(String)
+let energy = 'Saturday'
+function subLength(str_input,single_char){
+    string_Arr = str_input.split('')
+    find_Arr = string_Arr.map((element, idx) => 
+    element === single_char ? idx : '').filter(String)
   
-//     if (find_Arr.length === 2){
-//         return find_Arr[1] - find_Arr[0] + 1
-//     } else {
-//         return 0
-//     }
+    if (find_Arr.length === 2){
+        return find_Arr[1] - find_Arr[0] + 1
+    } else {
+        return 0
+    }
   
-//   }
+  }
 
-
-// console.log(subLength('Saturday', 'a'))
-// console.log(subLength('summer', 'm'))
-// console.log(subLength('digitize', 'i'))
-// console.log(subLength('cheesecake', 'k'))
+console.log(subLength('Saturday', 'a'))
+console.log(subLength('summer', 'm'))
+console.log(subLength('digitize', 'i'))
+console.log(subLength('cheesecake', 'k'))
 
 b = [{item: 'Carrots'}, 
     {item: 'Hummus'}, 
