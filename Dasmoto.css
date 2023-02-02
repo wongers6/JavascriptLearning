@@ -1,0 +1,38 @@
+
+ #banner {
+    background-image: url("img/patternbackground.jpeg");
+    text-align: center;
+    font-size: 100px;
+    color: Khaki;
+  }
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+  }
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#hacksaw {
+    background-color: MediumSpringGreen;
+}
+
+#frames {
+    background-color: LightCoral;
+}
+  
+#paint {
+    background-color: SkyBlue;
+}
+  
+.price{
+    color: Blue;
+    font-weight: bold;
+}
