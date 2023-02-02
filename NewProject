@@ -1,0 +1,17 @@
+function randSelector(array_input){
+    let rand_entry = Math.floor(Math.random() * array_input.length);
+    return array_input[rand_entry]
+}
+
+Animal_Array = ['Pig','Dog','Cat']
+Adj_Array = ['Funny','Hungry','Cute','Horrible']
+
+// console.log(randSelector(Animal_Array))
+
+function construct_str(){
+    let animal = randSelector(Animal_Array)
+    let adj = randSelector(Adj_Array)
+    return console.log(`The ${animal} is ${adj}.`)
+}
+
+construct_str()
