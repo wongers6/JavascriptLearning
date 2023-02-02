@@ -4,3 +4,4 @@ This project contains all the example scripts for the following learning objecti
 2. Using Try Catch error handling (Error)
 3. Object and array operation (CreditCard and DNA)
 4. Using function (TestFunction)
+5. New HTML file and CSS project (Dasmoto)
